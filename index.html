@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ko" data-theme="autumn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>대한민국 탄소중립 대시보드 - 코드포코리아</title>
+  <meta property="og:title" content="대한민국 탄소중립 대시보드 - 코드포코리아" />
+  <meta property="og:description" content="탄소중립 이행 상황을 추적해 시민들에게 보여주는 대시보드를 만듭니다. 탄소중립위원회, 온실가스종합정보센터, 온실가스감축인지 예산서 등 흩어져 있는 데이터를 수집하고 종합합니다." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="http://gongbo.kr/" />
+  <meta property="og:image" content="http://gongbo.kr/sns2.jpg" />
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.43.2/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <style>
+    .container {
+      max-width: 768px !important;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <section class="hero py-20 bg-base-200" style="background-image: url(stephen-dawson-qwtCeJ5cLYs-unsplash.jpg)">
+      <div class="hero-content">
+        <div class="container mx-auto">
+          <h4 class="text-white font-extrabold font-title text-2xl lg:text-3xl">코드포코리아</h4>
+          <h1 class="text-white mb-2 font-extrabold font-title text-5xl lg:text-6xl">대한민국 탄소중립 대시보드</h1>
+          <p class="text-white py-6">
+            개요
+            탄소중립 이행 상황을 추적해 시민들에게 보여주는 대시보드를 만듭니다. 탄소중립위원회, 온실가스종합정보센터, 온실가스감축인지 예산서 등 흩어져 있는 데이터를 수집하고 종합합니다.
+          </p><p class="text-white py-6">
+            목적
+            흩어져 있는 탄소중립 관련 정책과 데이터를 수집하고 분석하여 공개
+            시민들이 탄소중립 시나리오와 정책, 현황을 이해하고 파악할 수 있도록 도움 → ‘기후 리터러시’ 제고
+            가장 최근 데이터로 국가 탄소배출 현황을 모니터링하고, 목표달성을 부스트업할 수 있는 ‘액션’으로 연결
+          </p><p class="text-white py-6">
+            배경
+            기존의 국가 온실가스 모니터링(온실가스종합센터 등)은 업데이트가 늦음(2년 딜레이)
+            탄소중립 관련 정보를 한눈에 보기 어려움(상세 데이터는 여러 부처 사이트에 퍼져있음)
+            탄소중립이 계획대로 진행되고 있는지 직관적으로 이해하기 어려움
+            → 국가가 탄소중립을 잘 하고 있는지 지속적으로 확인하고 힘을 보탤 수 있는 정보제공 플랫폼 필요
+          </p>
+        </div>
+      </div>
+    </section>
+
+  </header>
+
+  <section class="sticky top-0 z-90 bg-base-300">
+    <div class="container mx-auto">
+      <div class="justify-between overflow-x-auto justify-items-stretch tabs tabs-boxed bg-base-300">
+        <a href="#sectors" class="tab link-neutral">부문</a>
+        <a href="#news" class="tab link-neutral">뉴스</a>
+        <a href="#policies" class="tab link-neutral">정책</a>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <section id="sectors" class="py-20 bg-secondary">
+      <div class="container mx-auto">
+        <h2 class="text-4xl font-bold mb-4 text-base-100">부문</h2>
+        <div class="grid grid-cols-3 lg:grid-cols-5 gap-4">
+
+          <div class="stats bg-accent text-accent-content shadow">
+            <div class="stat">
+              <div class="stat-title">전환</div>
+              <div class="stat-value">3</div>
+            </div>
+          </div>
+
+        </div>
+
+        <h3 class="text-xl font-bold mt-12 mb-4 text-base-100">작업 과정</h2>
+          <p class="mb-4 text-base-100">
+            풀씨 지원기간(4~9월)동안 에너지전환 부문을 우선적으로 대시보드를 개발하고 있으며, 추후 순차적으로 부문을 추가할 예정입니다.
+          </p>
+        </div>
+      </section>
+
+      <section id="policies" class="py-20 bg-white">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-4">뉴스</h2>
+          <div class="mt-4">
+            
+          </div>
+        </div>
+      </section>
+
+      <section id="policies" class="py-20 bg-white">
+        <div class="container mx-auto">
+          <h2 class="text-3xl font-bold mb-4">정책</h2>
+          <div class="mt-4">
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <section class="bg-base-200">
+      <footer class="py-10 footer text-base-content container mx-auto">
+        <div class="">
+          <h5 class="text-2xl font-bold">
+            <a href="https://codefor.kr" target="_blank">코드포코리아 Code for Korea</a>
+          </h5>
+
+          <div>
+            <span class="footer-title">기여한 분들 (가나다 순)</span>
+            <p>
+              
+            </p>
+          </div>
+
+          <div>
+            <span class="footer-title">프로젝트에 참여하는 방법</span>
+            <p>
+              <a href="https://code-for-korea.slack.com/join/shared_invite/zt-1agxnwk7r-XtjOFsUYTa0q3cIGecqGqQ#/shared-invite/email" target="_blank"> 코드포코리아 슬랙</a>에 가입한 후 <code>#p-기후위기</code> 채널로 들어오세요</p>
+            </p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <span class="footer-title mb-0">지원</span>
+            <h5 class="text-lg font-bold">
+              <a href="https://www.mois.go.kr/" target="_blank">풀씨 아카데미</a>
+            </h5>
+          </div>
+        </div>
+      </footer>
+  </section>
+  </body>
+</html>
